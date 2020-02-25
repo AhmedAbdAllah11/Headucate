@@ -9,9 +9,9 @@
  ### Second option:
  This option is about sport in this activity you will find some videos about excersise sport.
  
- ### Thired option:
+ ### Third option:
  `It is about awareness in this you will get some images inculding advices to keep you healthy aslo you will get links of some websites 
- about general advices
+ about general advices.
  _____________________________________________________________________________________________________________________________________
  
-## This application was implemented a year ago and one of the challenges was to be in the Arabic language
+## This application was implemented a year ago and one of the challenges was to be in the Arabic language.
