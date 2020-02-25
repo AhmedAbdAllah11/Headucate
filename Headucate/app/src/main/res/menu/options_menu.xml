@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/item1"
+        android:title="فوائد الرياضة" />
+    <item
+        android:id="@+id/item2"
+        android:title="نصائح في التغذية" />
+    <item
+        android:id="@+id/item3"
+        android:title="فوائد النوم" />
+    <item
+        android:id="@+id/item4"
+        android:title="فوائد النظافة" />
+    <item
+        android:id="@+id/item5"
+        android:title="نصائح العناية بالاطفال" />
+    <item
+        android:id="@+id/item6"
+        android:title="نصائح للوقاية من الأمراض " />
+</menu>

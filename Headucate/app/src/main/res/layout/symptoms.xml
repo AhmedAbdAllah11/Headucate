@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    tools:context=".Symptoms">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@drawable/simple"
+            android:orientation="vertical"
+
+            >
+
+            <CheckBox
+                android:id="@+id/khmoul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="خمول"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/d3f_3dlat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ضعف العضلات"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/alm_rkba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الم الرقبة"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/tskt_43r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تساقط الشعر"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/alm_smana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الم في سمانة القدم"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/kr7a_fm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="قرحة في الفم"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/e7tkan_anf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احتقان في الانف"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/khthyan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="غثيان"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/erhaq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ارهاق"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/alm_3yn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الم بالقرب من العين"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/tf7_gldy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="طفح جلدي"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/e7mrar_3yn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="احمرار في العين"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/dyq_tnfs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ضيق في التنفس"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/ats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="عطس"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/noom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اضطراب في النوم"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/qlq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="القلق"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/b4ra_gafah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="بشرة جافة"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/twrm_5d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تورم الخد"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/s3al"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="سعال"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/entfa5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="انتفاخ"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/alm_sdr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الم ف الصدر"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/do5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="دوخة"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/q4ra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="قشرة الرأس"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/d3f_sm3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ضعف السمع"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/en5fad_bsr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="انخفاض حدة البصر"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/gfaf_fm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="جفاف في الفم"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/alm_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="آلام في البطن"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/bol_dakn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="بول داكن"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/alm_zhr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الام في الظهر"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/asnan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="فقدان في الاسنان"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/wzn-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="فقدان الوزن"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/wzn_zyada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="زيادة في الوزن"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+            <CheckBox
+                android:id="@+id/qi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="القئ"
+                android:textColor="#000"
+                android:textSize="32sp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ذكر" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="أنثى" />
+
+    </RadioGroup>
+
+    <EditText
+
+        android:id="@+id/ed"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:hint="السن"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:onClick="btnClicked"
+        android:text="النتيجة" />
+
+</LinearLayout>
+
